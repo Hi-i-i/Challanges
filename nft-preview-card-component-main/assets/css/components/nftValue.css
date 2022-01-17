@@ -1,0 +1,14 @@
+.nft-value::before {
+    content: url(../../images/icon-ethereum.svg);
+    
+    display: inline-block;
+}
+.nft-value {
+    display: flex;
+    align-items: center;
+    
+    gap: .5ch;
+
+    font-weight: 600;
+    color: var(--color-nft-value);
+}

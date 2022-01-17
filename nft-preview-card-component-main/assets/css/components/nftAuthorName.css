@@ -1,0 +1,11 @@
+.nft-author-name {
+    margin-left: 1ch;
+    margin-right: 1ch;
+
+    color: #fff;
+}
+.nft-author-name:hover {
+    color: var(--color-nft-value);
+    
+    cursor: pointer;
+}

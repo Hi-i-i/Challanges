@@ -1,0 +1,13 @@
+.nft-time::before {
+    content: url(../../images/icon-clock.svg);
+
+    display: inline-block;
+}
+.nft-time {
+    display: flex;
+    align-items: center;
+    
+    gap: .5ch;
+    
+    color: var(--color-text);
+}

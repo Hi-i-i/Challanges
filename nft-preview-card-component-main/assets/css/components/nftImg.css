@@ -1,0 +1,35 @@
+.nft-img {   
+    width: 100%;
+    height: 100%;
+
+    border-radius: 5px;
+}
+.nft-img--active {
+    display: block;
+    
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 100%;
+    height: 100%;
+
+    opacity: .0;
+
+    border-radius: 5px;
+
+    background-color: var(--color-nft-value) ;
+    background-image: url(../../images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nft-img--active:hover {
+    opacity: .6;
+
+    transition: .3s;
+
+    cursor: pointer;
+}

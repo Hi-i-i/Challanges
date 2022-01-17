@@ -1,0 +1,18 @@
+.nft-img-conteiner {
+    position: relative;
+
+    width: 25vw;
+    height: 25vw;
+}
+@media screen and (max-width: 1024px) {
+    .nft-img-conteiner {
+        width: 50vw;
+        height: 50vw;
+    }
+}
+@media screen and (max-width: 768px) {
+    .nft-img-conteiner {
+        width: 75vw;
+        height: 75vw;
+    }
+}
